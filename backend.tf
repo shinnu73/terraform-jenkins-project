@@ -3,6 +3,7 @@ terraform {
     bucket = "terraformjenkinss3"
     key = "path/key"
     region = "ap-south-1"
+    migrate = true
   }
 }
     
